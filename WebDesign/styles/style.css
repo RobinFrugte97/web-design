@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  padding: 0 .5em;
+}
+
+h1 {
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 4em;
+  text-align: center;
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+  left: 0;
+  background-color: crimson;
+  color: white;
+  padding: .2em 0;
+  z-index: 1000;
+}
+
+input::placeholder {
+  font-size: 1.25em;
+}
+
+h3 {
+  font-family: sans-serif;
+  z-index: 99;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-decoration: none;
+  margin-top: 0;
+  padding-left: .3em;
+}
+
+h2 {
+  color: white;
+  font-family: sans-serif;
+  border-bottom: 2px solid rgb(169, 52, 52);
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+#landing {
+  display: flex;
+  width: 99.2vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./images/TV_Series_Using_Vray.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#topic {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 9em;
+}
+
+.naarTopic {
+  color: white;
+  background: crimson;
+  padding: 1em 2em;
+  font-family: helvetica;
+  font-size: 2em;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px 0px rgb(169, 52, 52);
+}
+
+.landingContent {
+  margin-top: 27em;
+  color: white;
+  z-index: 100;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.landingContent > p {
+  font-family: helvetica;
+  font-size: 1.9em;
+  margin-bottom: 3em;
+  letter-spacing: 1px;
+}
+
+.overlay {
+  position: fixed;
+  background-color: rgba(0,0,0,0.7);
+  top: 6.6em;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.videoplayer {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+
+.linkStyling {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+  width: 33vw;
+}
+
+iframe {
+  transform: translateY(30%);
+}
+
+input {
+  height: 3em;
+  font-size: 1em;
+  padding: 1em;
+}
+
+.vidContainer {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  padding-bottom: 2em;
+  transition: .2s ease;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.vidContainer::-webkit-scrollbar {
+    width: 10px;
+}
+
+.vidContainer::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+.vidContainer::-webkit-scrollbar-thumb {
+    background: rgb(169, 52, 52);
+}
+
+.vidContainer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.openVideo {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+span {
+  position: fixed;
+  top: 15vh;
+  right: 35vh;
+  font-family: sans-serif;
+  color: white;
+  font-size: 2em;
+}
+
+img {
+      width: 30em;
+      box-shadow: 10px 10px 48px -8px rgba(146, 146, 146, 0.57);
+}
+
+div > a {
+  margin-right: 2em;
+  text-decoration: none;
+}
+
+.contentBody {
+  background-color: rgb(70, 63, 63);
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1em;
+  grid-row-gap: 3em;
+  margin-top: 5em;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  width: 20em;
+  justify-self: center;
+}
+
+li img {
+  width: 20em;
+  height: 30em;
+  max-height: 1000em;
+  max-width: 1000em;
+  transition: .2s ease;
+}
+
+li img:hover {
+  transform: scale(1.03);
+}
+
+li h3 {
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+#back {
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+  padding: 2em;
+  text-decoration: none;
+}
