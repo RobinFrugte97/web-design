@@ -9,13 +9,26 @@
   <body class="contentBody">
     <h1>VIDS</h1>
     <section id="topic">
-      <input type="search" name="" value="" placeholder="Search...">
+      <div class="filter">
+        <div class="">
+          <input id="sportRadio" type="checkbox" name="sport" value="">
+          <label for="sportRadio" id="sportLabel" class="toggleLabelOn">SPORT</label>
+        </div>
+        <div class="">
+          <input id="techRadio" type="checkbox" name="tech" value="">
+          <label for="techRadio" id="techLabel" class="toggleLabelOn">TECH</label>
+        </div>
+        <div class="">
+          <input id="actionRadio" type="checkbox" name="action" value="">
+          <label for="actionRadio" id="actionLabel" class="toggleLabelOn">ACTION</label>
+        </div>
+      </div>
       <section id="iframesection" class="videoplayer">
         <span id="close">Close X</span>
         <iframe width="1120" height="630" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </section>
-      <h2>Sport</h2>
-      <div class="vidContainer">
+      <h2 id="sportHeader">Sport</h2>
+      <div id="sportContainer" class="vidContainer">
         <a href="#"> <div class="video">
           <h3>Ziggo Sport</h3>
           <img src="./images/Ziggo-Sport.png" alt="" data-link="https://www.youtube.com/embed/sqhVc9lkGTQ?rel=0&amp;showinfo=0;autoplay=1">
@@ -41,65 +54,65 @@
           <img src="./images/rsshootoutgrandsportvsf-typeholdingstill02rs.jpg" alt="" data-link="https://www.youtube.com/embed/hGMlgCPsVT4?rel=0&amp;showinfo=0;autoplay=1">
         </div> </a>
       </div>
-      <h2>Tech</h2>
-      <div class="vidContainer">
+      <h2 id="techHeader">Tech</h2>
+      <div id="techContainer" class="vidContainer">
         <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
+          <h3>Microchips in 2018</h3>
+          <img src="./images/tech1.jpg" alt="" data-link="https://www.youtube.com/embed/qm67wbB5GmI?rel=0&amp;showinfo=0;autoplay=1">
         </div> </a>
         <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
+          <h3>Best laptop in business</h3>
+          <img src="./images/tech2.jpg" alt="" data-link="https://www.youtube.com/embed/E2qco7G2_iI?rel=0&amp;showinfo=0;autoplay=1">
         </div> </a>
         <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
+          <h3>Must watch Netflix-series</h3>
+          <img src="./images/tech3.jpg" alt="" data-link="https://www.youtube.com/embed/HUTVMbU5gRE?rel=0&amp;showinfo=0;autoplay=1">
         </div> </a>
         <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
+          <h3>Techtalk - Episode: 3</h3>
+          <img src="./images/tech4.jpg" alt="" data-link="https://www.youtube.com/embed/hS8faZ2xDM0?rel=0&amp;showinfo=0;autoplay=1">
         </div> </a>
         <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
+          <h3>World Wide Web</h3>
+          <img src="./images/tech5.jpg" alt="" data-link="https://www.youtube.com/embed/J8hzJxb0rpc?rel=0&amp;showinfo=0;autoplay=1">
         </div> </a>
         <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
-        </div> </a>
-      </div>
-      <h2>Action</h2>
-      <div class="vidContainer">
-        <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
-        </div> </a>
-        <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
-        </div> </a>
-        <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
-        </div> </a>
-        <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
-        </div> </a>
-        <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
-        </div> </a>
-        <a href="#"> <div class="video">
-          <h3>titel</h3>
-          <img src="./images/Ziggo-Sport.png" alt="">
+          <h3>Best tech toys</h3>
+          <img src="./images/tech6.jpg" alt="" data-link="https://www.youtube.com/embed/sqhVc9lkGTQ?rel=0&amp;showinfo=0;autoplay=1">
         </div> </a>
       </div>
-
+      <h2 id="actionHeader">Action</h2>
+      <div id="actionContainer" class="vidContainer">
+        <a href="#"> <div class="video">
+          <h3>Red Bull - Extreme snowboarding</h3>
+          <img src="./images/action1.jpg" alt="" data-link="https://www.youtube.com/embed/1MQfbMoCfb4?rel=0&amp;showinfo=0;autoplay=1">
+        </div> </a>
+        <a href="#"> <div class="video">
+          <h3>Best action scenes in Hollywood</h3>
+          <img src="./images/action2.jpg" alt="" data-link="https://www.youtube.com/embed/NBjSjD1Bi_E?rel=0&amp;showinfo=0;autoplay=1">
+        </div> </a>
+        <a href="#"> <div class="video">
+          <h3>How to shoot an action scene</h3>
+          <img src="./images/action3.jpg" alt="" data-link="https://www.youtube.com/embed/wj7SyUGhtFA?rel=0&amp;showinfo=0;autoplay=1">
+        </div> </a>
+        <a href="#"> <div class="video">
+          <h3>Mission impossible - Bike scene</h3>
+          <img src="./images/action4.jpg" alt="" data-link="https://www.youtube.com/embed/ZdUxKdwAQ4w?rel=0&amp;showinfo=0;autoplay=1">
+        </div> </a>
+        <a href="#"> <div class="video">
+          <h3>Boxing Girl vs Martial Arts Guy</h3>
+          <img src="./images/action5.jpg" alt="" data-link="https://www.youtube.com/embed/97cXRWNMA3g?rel=0&amp;showinfo=0;autoplay=1">
+        </div> </a>
+        <a href="#"> <div class="video">
+          <h3>Marvel The Punisher - Action scene</h3>
+          <img src="./images/action6.jpg" alt="" data-link="https://www.youtube.com/embed/r4SjsDFFOqU?rel=0&amp;showinfo=0;autoplay=1">
+        </div> </a>
+      </div>
     </section>
-
+    <footer>
+      <a href="./series.html">SERIES</a>
+    </footer>
+    <a id="back" href="./index.html">back</a>
   </body>
-  <script src="./index.js">
-
-  </script>
+  <script src="./index.js"></script>
 </html>
