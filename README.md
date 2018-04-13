@@ -10,6 +10,11 @@ On this website you can watch videos. You can either filter through a couple of 
 - Principle 9
 - Principle 11
 
+
+## GIF 
+
+![](https://imgur.com/xDPixd4)
+
 ## States
 
 There are a couple of different states:
