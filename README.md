@@ -4,6 +4,12 @@
 
 On this website you can watch videos. You can either filter through a couple of topics or search for your favourite TV-series.
 
+## Principles
+
+- Principle 6
+- Principle 9
+- Principle 11
+
 ## States
 
 There are a couple of different states:
