@@ -13,7 +13,7 @@ On this website you can watch videos. You can either filter through a couple of 
 
 ## GIF 
 
-![](https://imgur.com/xDPixd4)
+![](https://giphy.com/gifs/ef4PS9LM08BW4AZHcM)
 
 ## States
 
