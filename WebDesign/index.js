@@ -35,6 +35,16 @@ var sportHeader = document.getElementById("sportHeader")
 var actionLabel = document.getElementById("actionLabel")
 var techLabel = document.getElementById("techLabel")
 var sportLabel = document.getElementById("sportLabel")
+var selectedFilters = document.getElementById("selectedFilters")
+var selectedAction = document.createElement('li')
+selectedAction.innerHTML = 'Action'
+selectedAction.setAttribute('id', 'actionSelection')
+var selectedTech = document.createElement('li')
+selectedTech.innerHTML = 'Tech'
+selectedTech.setAttribute('id', 'techSelection')
+var selectedSport = document.createElement('li')
+selectedSport.innerHTML = 'Sport'
+selectedSport.setAttribute('id', 'sportSelection')
 
 actionRadio.addEventListener('click', function(){
   if(actionContainer.classList.contains('gone')) {
@@ -43,6 +53,8 @@ actionRadio.addEventListener('click', function(){
     actionHeader.classList.remove('gone')
     actionLabel.classList.remove('toggleLabelOff')
     actionLabel.classList.add('toggleLabelOn')
+    selectedAction.innerHTML = 'Action'
+    selectedFilters.append(selectedAction)
   } else {
     actionContainer.classList.remove('vidContainer')
     actionContainer.classList.add('gone')
@@ -50,7 +62,7 @@ actionRadio.addEventListener('click', function(){
     actionLabel.classList.toggle('toggleLabel')
     actionLabel.classList.remove('toggleLabelOn')
     actionLabel.classList.add('toggleLabelOff')
-
+    selectedAction.innerHTML = ''
   }
 })
 techRadio.addEventListener('click', function(){
@@ -60,6 +72,8 @@ techRadio.addEventListener('click', function(){
     techHeader.classList.remove('gone')
     techLabel.classList.remove('toggleLabelOff')
     techLabel.classList.add('toggleLabelOn')
+    selectedTech.innerHTML = 'Tech'
+    selectedFilters.append(selectedTech)
   } else {
     techContainer.classList.remove('vidContainer')
     techContainer.classList.add('gone')
@@ -67,6 +81,7 @@ techRadio.addEventListener('click', function(){
     techLabel.classList.toggle('toggleLabel')
     techLabel.classList.remove('toggleLabelOn')
     techLabel.classList.add('toggleLabelOff')
+    selectedTech.innerHTML = ''
   }
 })
 sportRadio.addEventListener('click', function(){
@@ -76,6 +91,8 @@ sportRadio.addEventListener('click', function(){
     sportHeader.classList.remove('gone')
     sportLabel.classList.remove('toggleLabelOff')
     sportLabel.classList.add('toggleLabelOn')
+    selectedSport.innerHTML = 'Sport'
+    selectedFilters.append(selectedSport)
   } else {
     sportContainer.classList.remove('vidContainer')
     sportContainer.classList.add('gone')
@@ -83,5 +100,6 @@ sportRadio.addEventListener('click', function(){
     sportLabel.classList.toggle('toggleLabel')
     sportLabel.classList.remove('toggleLabelOn')
     sportLabel.classList.add('toggleLabelOff')
+    selectedSport.innerHTML = ''   
   }
 })
