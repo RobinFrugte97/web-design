@@ -44,8 +44,8 @@ Marie is one of two people this website is being build for. Recently we had the 
 
 # Todo
 
-- [] Add an introduction to the website to provide more context for the user.
-- [] Add more ways to filter content.
-- [] Re-add the search function.
-- [] Add more information to the video pages such as subtitles, discription.
-- [] Re-add styling elements.
+- [ ] Add an introduction to the website to provide more context for the user.
+- [ ] Add more ways to filter content.
+- [ ] Re-add the search function.
+- [ ] Add more information to the video pages such as subtitles, discription.
+- [ ] Re-add styling elements.
