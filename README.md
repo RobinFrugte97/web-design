@@ -10,15 +10,15 @@ For this course I have made a video website, on which you can watch YouTube vide
 
 There was too much distraction from the main content of the site. The main content of the site, being the YouTube videos, did not get enough space and attention.
 
-![]()
+![](https://github.com/RobinFrugte97/web-design/blob/master/screenshot/Screenshot_2.png)
 
 ## Updated version
 
 I remove a large part of the website and a large part of the styling. I did this in order to improve the visual hierarchy from the ground up. I split the remaining parts of the website in different parts so I could make the flow more apparent and give each part of the site a good hierarchy.
 
-![]()
+![](https://github.com/RobinFrugte97/web-design/blob/master/screenshot/new1.png)
 
-![]()
+![](https://github.com/RobinFrugte97/web-design/blob/master/screenshot/new2.png)
 
 # Content inventory
 
