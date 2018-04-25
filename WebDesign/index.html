@@ -5,18 +5,218 @@
     <title></title>
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
   </head>
-  <body id="landingpage">
-    <h1>VIDS</h1>
-    <section id="landing">
-      <div class="overlay"></div>
-      <div class="landingContent">
-        <p>Bekijk je favouriete TV-series nu! Of bekijk een willekeurige video uit een bepaald onderwerp!</p>
-        <div class="linkStyling">
-          <a href="./topic.html" class="naarTopic">TOPICS</a>
-          <a href="./series.html" class="naarTopic">SERIES</a>
-        </div>
-      </div>
+  <body class="contentBody">
+    <section id="beginFilter">
+        <main>
+          <div class="intro">
+            <h1> VIDS</h1>
+            <p> Op deze site kun je YouTube-video's in de top 5 populairste onderwerpen op YouTube kijken.
+            Selecteer de voor jou interessante onderwerpen. Je krijgt een overzicht met video's over
+            jouw gekozen onderwerpen.</p>
+          </div>
+          <div class="filterContent">
+            <div class="teste">
+              <input id="sportRadio" type="checkbox" name="sport" value="">
+              <label for="sportRadio" id="sportLabel" class="toggleLabelOff">SPORT</label>
+            </div>
+            <div class="teste">
+              <input id="techRadio" type="checkbox" name="tech" value="">
+              <label for="techRadio" id="techLabel" class="toggleLabelOff">TECH</label>
+            </div>
+            <div class="teste">
+              <input id="actionRadio" type="checkbox" name="action" value="">
+              <label for="actionRadio" id="actionLabel" class="toggleLabelOff">ACTION</label>
+            </div>
+            <div class="teste">
+              <input id="musicRadio" type="checkbox" name="music" value="">
+              <label for="musicRadio" id="musicLabel" class="toggleLabelOff">MUSIC</label>
+            </div>
+            <div class="teste">
+              <input id="gamingRadio" type="checkbox" name="gaming" value="">
+              <label for="gamingRadio" id="gamingLabel" class="toggleLabelOff">GAMING</label>
+            </div>
+          </div>
+        </main>
+
+          <footer>
+            <div class="">
+              <p>Gekozen onderwerpen:</p>
+              <ul id="selectedFilters">
+                <h4 id="geenFilter">
+                  Nog geen onderwerpen gekozen
+                </h4>
+              </ul>
+            </div>
+            <a href="#filteredTopics" id="showVideos">KLAAR</a>
+
+          </footer>
     </section>
+    <section id="filteredTopics">
+      <header>
+        <h1>VIDS</h1>
+        <ul id="filterOverview">
+
+        </ul>
+        <a href="#beginFilter" id="showFilteren">FILTEREN</a>
+      </header>
+      <section id="topic">
+        <section id="iframesection" class="videoplayer">
+          <span id="close">Close X</span>
+          <iframe width="1440" height="810" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="videoInfo">
+            <div id="uitvouwIframe"></div>
+          </div>
+        </section>
+        <section class="topicWrap">
+          <h2 id="sportHeader" class="gone">Sport</h2>
+          <div id="sportContainer" class="gone">
+            <a href="#"> <div class="video">
+              <h3>Ziggo Sport</h3>
+              <img src="./images/Ziggo-Sport.png" alt="" data-link="https://www.youtube.com/embed/sqhVc9lkGTQ?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Roger Federer - Best points ever</h3>
+              <img src="./images/tennis.jpg" alt="" data-link="https://www.youtube.com/embed/xeFMrkvPADg?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Inside the Race #22 Spijkenisse</h3>
+              <img src="./images/wielren.jpg" alt="" data-link="https://www.youtube.com/embed/S6W64DC1AOM?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Can Liverpool keep Mohamed?</h3>
+              <img src="./images/maxresdefault.jpg" alt="" data-link="https://www.youtube.com/embed/T-0doxUoOTY?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>EPIC Football Highlights</h3>
+              <img src="./images/US-100_6-11-2016_Utrecht-Dominators-Enschede-Broncos_JES_0462-68-HD.jpg" alt="" data-link="https://www.youtube.com/embed/TlZiwCIAtbQ?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Grand Sport takes on the Jaguar</h3>
+              <img src="./images/rsshootoutgrandsportvsf-typeholdingstill02rs.jpg" alt="" data-link="https://www.youtube.com/embed/hGMlgCPsVT4?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+          </div>
+        </section>
+        <section class="topicWrap">
+          <h2 id="techHeader" class="gone">Tech</h2>
+          <div id="techContainer" class="gone">
+            <a href="#"> <div class="video">
+              <h3>Microchips in 2018</h3>
+              <img src="./images/tech1.jpg" alt="" data-link="https://www.youtube.com/embed/qm67wbB5GmI?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Best laptop in business</h3>
+              <img src="./images/tech2.jpg" alt="" data-link="https://www.youtube.com/embed/E2qco7G2_iI?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Must watch Netflix-series</h3>
+              <img src="./images/tech3.jpg" alt="" data-link="https://www.youtube.com/embed/HUTVMbU5gRE?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Techtalk - Episode: 3</h3>
+              <img src="./images/tech4.jpg" alt="" data-link="https://www.youtube.com/embed/hS8faZ2xDM0?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>World Wide Web</h3>
+              <img src="./images/tech5.jpg" alt="" data-link="https://www.youtube.com/embed/J8hzJxb0rpc?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Best tech toys</h3>
+              <img src="./images/tech6.jpg" alt="" data-link="https://www.youtube.com/embed/sqhVc9lkGTQ?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+          </div>
+        </section>
+        <section class="topicWrap">
+          <h2 id="actionHeader" class="gone">Action</h2>
+          <div id="actionContainer" class="gone">
+            <a href="#"> <div class="video">
+              <h3>Red Bull - Extreme snowboarding</h3>
+              <img src="./images/action1.jpg" alt="" data-link="https://www.youtube.com/embed/1MQfbMoCfb4?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Best action scenes in Hollywood</h3>
+              <img src="./images/action2.jpg" alt="" data-link="https://www.youtube.com/embed/NBjSjD1Bi_E?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>How to shoot an action scene</h3>
+              <img src="./images/action3.jpg" alt="" data-link="https://www.youtube.com/embed/wj7SyUGhtFA?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Mission impossible - Bike scene</h3>
+              <img src="./images/action4.jpg" alt="" data-link="https://www.youtube.com/embed/ZdUxKdwAQ4w?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Boxing Girl vs Martial Arts Guy</h3>
+              <img src="./images/action5.jpg" alt="" data-link="https://www.youtube.com/embed/97cXRWNMA3g?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Marvel The Punisher - Action scene</h3>
+              <img src="./images/action6.jpg" alt="" data-link="https://www.youtube.com/embed/r4SjsDFFOqU?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+          </div>
+        </section>
+        <section class="topicWrap">
+          <h2 id="musicHeader" class="gone">Music</h2>
+          <div id="musicContainer" class="gone">
+            <a href="#"> <div class="video">
+              <h3>CL Smooth - I Got A Love</h3>
+              <img src="./images/music1.jpg" alt="" data-link="https://www.youtube.com/embed/oTRj79yyVUc?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>THE CHATS - SMOKO</h3>
+              <img src="./images/music2.jpg" alt="" data-link="https://www.youtube.com/embed/j58V2vC9EPc?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>ChillYourMind Radio</h3>
+              <img src="./images/music3.jpg" alt="" data-link="https://www.youtube.com/embed/svWHlWi-KtA?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Pete Rock - They Reminisce Over You</h3>
+              <img src="./images/music4.jpg" alt="" data-link="https://www.youtube.com/embed/BONgL61snlM?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Souls Of Mischief - 93 'Til Infinity</h3>
+              <img src="./images/music5.jpg" alt="" data-link="https://www.youtube.com/embed/fXJc2NYwHjw?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Wu-Tang Clan - Method Man</h3>
+              <img src="./images/music6.jpg" alt="" data-link="https://www.youtube.com/embed/PEnwXYJcSZc?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+          </div>
+        </section>
+        <section class="topicWrap">
+          <h2 id="gamingHeader" class="gone">Gaming</h2>
+          <div id="gamingContainer" class="gone">
+            <a href="#"> <div class="video">
+              <h3>Top 15 Best Modern PS4 Action Adventure Games</h3>
+              <img src="./images/gaming1.jpg" alt="" data-link="https://www.youtube.com/embed/eUYx_6-4NQk?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>CREEPY MARIO GAMES 2 - SpaceHamster</h3>
+              <img src="./images/gaming2.jpg" alt="" data-link="https://www.youtube.com/embed/stC6IB3i0qc?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>City Car Drift Racer - Racing Games</h3>
+              <img src="./images/gaming3.jpg" alt="" data-link="https://www.youtube.com/embed/X58woEyyPAc?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Evolution of Need for Speed Games 1994-2017</h3>
+              <img src="./images/gaming4.jpg" alt="" data-link="https://www.youtube.com/embed/kIC0WRb6ZPQ?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>TT Isle Of Man PC "NEW" Game on TWO Wheels</h3>
+              <img src="./images/gaming5.jpg" alt="" data-link="https://www.youtube.com/embed/3n3OT6tPnqI?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+            <a href="#"> <div class="video">
+              <h3>Cockpit View in 20 different racing games</h3>
+              <img src="./images/gaming6.jpg" alt="" data-link="https://www.youtube.com/embed/JlpvrbvlxrY?rel=0&amp;showinfo=0;autoplay=1">
+            </div> </a>
+          </div>
+        </section>
+      </section>
+    </section>
+
   </body>
+  <script src="./index.js"></script>
 </html>
