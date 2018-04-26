@@ -38,7 +38,7 @@ There was too little context when you enter the website. You see some kind of fi
 I added an introduction to the site, so users can know what to expect from the site.
 I also added a section to the video overview page to let the user know what they filters they selected.
 
-![]()
+![](https://github.com/RobinFrugte97/web-design/blob/master/screenshot/updatedweek3.png)
 
 # Content inventory
 
