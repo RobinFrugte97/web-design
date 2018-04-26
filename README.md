@@ -11,6 +11,11 @@ For this course I have made a video website, on which you can watch YouTube vide
 - Progressive Disclosure (9).
 - Strong visual hierarchy (11).
 
+- I tried to make the functionality of the website as clear as possible, for example by adding the '+' & '-' next to the filters to make its purpose is to add and remove. I also tried to give a clear introduction to the site and its flow.
+- The site is made up of 3 primary actions. I tried to separate these actions to one per state. I have one state for filtering and starting off with the website. I have a second state for the filter result and an overview of videos. I have a third state for watching the video with information to the side being another state.
+- I tried to make use of progressive disclosure on a couple of elements on my site. On the filter page, there is a filter option horizontally cut in half to indicate you have the ability to scroll. On the overview page, part of the next topic is showing on the bottom of the screen to indicate you can scroll to other topics. The same goes for the videos in each topic section. On the video player page you can hover over the sidebar, which will show the user there is something in there coming from the right.
+- I tried to add sufficient white space everywhere to add hierarchy. I tried to make the primary action of every state relatively large. I made the filter option very large in comparison, I made the topic headers very large aswell, but I put them in the background to give more attention to the videos.
+
 # Content inventory
 
 - Introduction
@@ -27,7 +32,6 @@ Marie is one of two people this website is being build for. Recently we had the 
 
 - Marie prefers short sentences. This makes it easier to understand what the text is about.
 - Marie prefers the content to be 'To the point'. She want to understand what the website is about as quickly as possible. She is not looking for sweet-talk, it has to be direct.
-- Marie prefers emotion through text, rather than through color or any other potentially distracting aspect of design.
 
 2. Job
 - Job is a 21 year old guy that studies Software Development by HvA. He enjoys spending time on the computer. He is a regular visitor to the YouTube website. He enjoys watching videos of certain topics.
