@@ -35,7 +35,7 @@ Marie is one of two people this website is being build for. Recently we had the 
 # User scenario
 
 - Marie is deaf. She wants to watch an action video about snowboarding. When she is watching the video, she wants to know some context about the video.
-- Mitch wants to quickly select the filters he is interested about that particular day, so he can start watching videos of said topic.
+- Job wants to quickly select the filters he is interested about that particular day, so he can start watching videos of said topic.
 - Marie want to know how the site works as quickly as possible, so she can be on her way as soon as possible.
 
 # Feedback Week 1
