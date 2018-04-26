@@ -11,6 +11,33 @@ For this course I have made a video website, on which you can watch YouTube vide
 - Progressive Disclosure (9).
 - Strong visual hierarchy (11).
 
+# Content inventory
+
+- Introduction
+- Content filter page
+- Overview of filtered Youtube video's
+- Video page
+- Information per video
+
+# Users
+
+1. Marie
+- Marie is a web designer. Marie is also deaf.
+Marie is one of two people this website is being build for. Recently we had the opportunity to get some insights from her. There are a couple of things deaf people find important on the web. Sign-language is the first language for most deaf people, including Marie. Sign-language has a different vocabulary to 'regular' language. Here are some of the insights Marie gave:
+
+- Marie prefers short sentences. This makes it easier to understand what the text is about.
+- Marie prefers the content to be 'To the point'. She want to understand what the website is about as quickly as possible. She is not looking for sweet-talk, it has to be direct.
+- Marie prefers emotion through text, rather than through color or any other potentially distracting aspect of design.
+
+2. Job
+- Job is a 21 year old guy that studies Software Development by HvA. He enjoys spending time on the computer. He is a regular visitor to the YouTube website. He enjoys watching videos of certain topics.
+
+# User scenario
+
+- Marie is deaf. She wants to watch an action video about snowboarding. When she is watching the video, she wants to know some context about the video.
+- Mitch wants to quickly select the filters he is interested about that particular day, so he can start watching videos of said topic.
+- Marie want to know how the site works as quickly as possible, so she can be on her way as soon as possible.
+
 # Feedback Week 1
 
 ## Points of attention
@@ -39,34 +66,6 @@ I added an introduction to the site, so users can know what to expect from the s
 I also added a section to the video overview page to let the user know what they filters they selected.
 
 ![](https://github.com/RobinFrugte97/web-design/blob/master/screenshot/updatedweek3.png)
-
-# Content inventory
-
-- Introduction
-- Content filter page
-- Overview of filtered Youtube video's
-- Video page
-- Information per video
-
-# Users
-
-1. Marie
-- Marie is a web designer. Marie is also deaf.
-Marie is one of two people this website is being build for. Recently we had the opportunity to get some insights from her. There are a couple of things deaf people find important on the web. Sign-language is the first language for most deaf people, including Marie. Sign-language has a different vocabulary to 'regular' language. Here are some of the insights Marie gave:
-
-- Marie prefers short sentences. This makes it easier to understand what the text is about.
-- Marie prefers the content to be 'To the point'. She want to understand what the website is about as quickly as possible. She is not looking for sweet-talk, it has to be direct.
-- Marie prefers emotion through text, rather than through color or any other potentially distracting aspect of design.
-
-2. Job
-- Job is a 21 year old guy that studies Software Development by HvA. He enjoys spending time on the computer. He is a regular visitor to the YouTube website. He enjoys watching videos of certain topics.
-
-# User scenario
-
-- Marie is deaf. She wants to watch an action video about snowboarding. When she is watching the video, she wants to know some context about the video.
-- Mitch wants to quickly select the filters he is interested about that particular day, so he can start watching videos of said topic.
-- Marie want to know how the site works as quickly as possible, so she can be on her way as soon as possible.
-
 
 # Test
 
