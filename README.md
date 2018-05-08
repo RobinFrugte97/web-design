@@ -2,7 +2,7 @@
 
 # Video website
 
-For this course I have made a video website, on which you can watch YouTube video's. You can filter the content to your liking. The website is built for a couple of specific persons, including Marie.
+For this course I have made a video website, on which you can watch YouTube video's. You can filter the content to your liking. The website is built for a couple of specific persons, including Marie. [Prototype](https://robinfrugte97.github.io/web-design/)
 
 # Design principles
 
