@@ -28,7 +28,7 @@ For this course I have made a video website, on which you can watch YouTube vide
 
 1. Marie
 - Marie is a web designer. Marie is also deaf.
-Marie is one of two people this website is being build for. Recently we had the opportunity to get some insights from her. There are a couple of things deaf people find important on the web. Sign-language is the first language for most deaf people, including Marie. Sign-language has a different vocabulary to 'regular' language. Here are some of the insights Marie gave:
+Marie is one of two people this website is being build for. Recently we had the opportunity to get some insights from her. There are a couple of things deaf people find important on the web. Sign-language is the primary language for most deaf people, including Marie. Sign-language has a different vocabulary to 'regular' language. Here are some of the insights Marie gave:
 
 - Marie prefers short sentences. This makes it easier to understand what the text is about.
 - Marie prefers the content to be 'To the point'. She want to understand what the website is about as quickly as possible. She is not looking for sweet-talk, it has to be direct.
@@ -38,9 +38,8 @@ Marie is one of two people this website is being build for. Recently we had the 
 
 # User scenario
 
-- Marie is deaf. She wants to watch an action video about snowboarding. When she is watching the video, she wants to know some context about the video.
-- Job wants to quickly select the filters he is interested about that particular day, so he can start watching videos of said topic.
-- Marie want to know how the site works as quickly as possible, so she can be on her way as soon as possible.
+- Marie is deaf. She is interested in watching some video's. She does not exactly know what she wants to see and where she wants to see them. Youtube can get real confusing for her because Youtube is not specifically built for deaf people. When the topic is brought up during a conversation with a friend of Marie's, Vids is mentioned. She tells Marie that Vids is built with deaf people in mind. Because Marie is interested in watching video's, she goes to the Vids website. Marie selects a couple of topics that seem interesting to her. She picks a video to watch and reads what the video is about in the information tab. She decides to pick some different topics to watch more video's.
+- Job watches youtube video's regularly. He has a good idea of what he like to see and what not. He is reading about a new video site named Vids on a tech website. He decides to have a look. He selects the filters he is familiar with and watches a video. After he is done watching the video, he continues to watch a suggested video of the same topic. He continues until he watched all the video's of a certain topic.
 
 # Feedback Week 1
 
@@ -87,9 +86,9 @@ Marie brought up interesting points:
 
 Here is how I can fix these problems:
 1. [x] I can put the topics closer to each other, so more topics are visible in one view. I think this is also a form of progressive disclosure.
-2. [ ] I can add a play button on top of the videos, so it is more clear that they are clickable.
+2. [x] I can add a play button on top of the videos, so it is more clear that they are clickable.
 3. [x] I can add space around each filter item on the overview page, so it is more clear to the user what exactly they have filtered.
-4. [ ] I can have the information tab on the video player page be opened up by default. The user can instead close the tab if they don't want to see the information anymore.
+4. [x] I can have the information tab on the video player page be opened up by default. The user can instead close the tab if they don't want to see the information anymore.
 
 
 # Todo
