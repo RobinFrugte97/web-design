@@ -49,8 +49,14 @@ Video-state:
 ![](https://github.com/RobinFrugte97/web-design/blob/master/screenshot/state3.png)
 
 3. The website I made keep users in control. At all times you can do whatever you want. You can reach anywhere once you've selected your first topics.
+
+![](https://github.com/RobinFrugte97/web-design/blob/master/screenshot/keepusersincontrol.png)
+
 4. I tried to add sufficient white space everywhere to add hierarchy. I tried to make the primary action of every state relatively large. I made the filter option very large in comparison, I made the topic headers very large aswell, but I put them in the background to give more attention to the videos.
 5. The website gives the user as many natural next steps as possible. After you select the topics, you can click on any video. Once you've watched a video, you can click to watch the next one.
+
+![](https://github.com/RobinFrugte97/web-design/blob/master/screenshot/providenextstep.png)
+
 
 # Content inventory
 
