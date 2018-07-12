@@ -4,17 +4,40 @@
 
 For this course I have made a video website, on which you can watch YouTube video's. You can filter the content to your liking. The website is built for a couple of specific persons, including Marie. [Prototype](https://robinfrugte97.github.io/web-design/)
 
+# Herkansing
+
+## Wat heb ik gedaan?
+
+- Algemeen
+  - Duidelijke richting in de site doormiddel van animaties.
+- Filterpagina
+  - Filters scrollen niet meer en vullen de pagina.
+  - Redundante info weggehaald, filters zijn nu duidelijk genoeg.
+- Overzichtpagina
+  - Horizontale scroll per topic verwijderd. Video's staan nu in een soort grid positie, naast elkaar en onder elkaar.
+  - Play button toegevoegd aan alle video's, het is nu duidelijk dat je ook daadwerkelijk kan klikken op de video's.
+  - Redundante filter informatie weggehaald.
+  - Jargon vervangen door logische verwoording.
+  - Je kunt nu zien welke video's je hebt aangeklikt vanuit de overzichtpagina. De aangeklikte video's hebben een lagere opacity.
+- Videopagina
+  - Informatiebalk op de sidebar standaard open.
+  - Jargon vervangen door logische verwoording.
+  - Vorige en volgende video's aangeboden bij sport. Zo kun je lekker doorklikken.
+  - Mogelijkheid toegevoegd om topic keuze aan te passen.
+
 # Design principles
 
 - Clarity (1).
 - One primary action per state (6).
-- Progressive Disclosure (9).
+- Keep users in control (4).
 - Strong visual hierarchy (11).
+- Provide a natural next step (8).
 
 1. I tried to make the functionality of the website as clear as possible, for example by adding the '+' & '-' next to the filters to make its purpose is to add and remove. I also tried to give a clear introduction to the site and its flow.
 2. The site is made up of 3 primary actions. I tried to separate these actions to one per state. I have one state for filtering and starting off with the website. I have a second state for the filter result and an overview of videos. I have a third state for watching the video with information to the side being another state.
-3. I tried to make use of progressive disclosure on a couple of elements on my site. On the filter page, there is a filter option horizontally cut in half to indicate you have the ability to scroll. On the overview page, part of the next topic is showing on the bottom of the screen to indicate you can scroll to other topics. The same goes for the videos in each topic section. On the video player page you can hover over the sidebar, which will show the user there is something in there coming from the right.
+3. The website I made keep users in control. At all times you can do whatever you want. You can reach anywhere once you've selected your first topics.
 4. I tried to add sufficient white space everywhere to add hierarchy. I tried to make the primary action of every state relatively large. I made the filter option very large in comparison, I made the topic headers very large aswell, but I put them in the background to give more attention to the videos.
+5. The website gives the user as many natural next steps as possible. After you select the topics, you can click on any video. Once you've watched a video, you can click to watch the next one.
 
 # Content inventory
 
